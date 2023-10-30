@@ -3,14 +3,55 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
+/* page title */
+#pagetitle {
+  display: flex; 
+  flex-direction: row; 
+  align-content:flex-start;
+  justify-content: space-evenly;
+  margin-right: auto;
+}
+#pagetitle h1 {
+  width: 25%;
+  font-weight:600 bold; 
+}
+ /* navigation flexbox area 1 */
+ header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px, 50px;
+  font-size: x-large;
+ }
 
-h1,
-h2,
+ header li {
+  list-style: none;
+  display: inline-block;
+  padding: 50px, 50px;
+  margin-inline-start: 25px;
+ }
+.backgroundbannerstrip {
+  background-image: url(/My-profolio-showcase/images/banner\strip\hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  width: max-content;
+  height: 280px;
+}
+
+h2 .WebDeveloper {
+  position: absolute;
+
+} 
 h3,
 h4,
 h5,
