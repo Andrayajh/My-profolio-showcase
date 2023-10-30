@@ -50,14 +50,56 @@ img {
 
 h2 .WebDeveloper {
   position: absolute;
-
-} 
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
 }
+#portfoliogrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 600px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "Horiseon"
+  "Placeholder One Placeholder One Placeholder Two Placeholder Two"
+  "Placeholder Three Placeholder Three Placeholder Four Placeholder Four";
+
+}
+
+#mainfeaturewindow {
+  grid-area:;
+  background-image: url(../My-profolio-showcase/images/Screenshot\ 2023-10-30\ at\ 21.12.36.png);
+}
+
+#placeholderone {
+  grid-area: Placeholder One;
+  background-image: url(../My-profolio-showcase/images/Placeholder\ One.png) ;
+}
+
+#placeholdertwo {
+  grid-area: Placeholer Two;
+  background-image: url(../My-profolio-showcase/images/Placeholder\ Two.png);
+}
+
+#placeholderthree {
+  grid-area: Placeholder Three;
+  background-image: url(../My-profolio-showcase/images/Placeholder\ Three.png);
+}
+
+#placeholderfour {
+  grid-area: Placeholder Four;
+  background-image: url(../My-profolio-showcase/images/Placeholder\ Four.png);
+}
+
+.portfoliogrid {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+/*
+margin: 0;
+
 
 p {
   margin: 0;
